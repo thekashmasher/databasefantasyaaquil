@@ -69,10 +69,7 @@ DATABASES = {
         'USER': os.environ.get('new_user'), 
         'PASSWORD': os.environ.get('my_password'),
         'HOST': os.environ.get('127.0.0.1'),
-        'PORT': os.environ.get('5432'), 
-        'OPTIONS': {
-            'options': '-c search_path=fantasy_sports,public',
-        },
+        'PORT': os.environ.get('5432')
     }
 }
 
